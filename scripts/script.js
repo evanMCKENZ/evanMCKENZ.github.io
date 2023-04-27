@@ -3,7 +3,7 @@ const header = document.querySelector('.navbar');
 console.log(header)
 window.onscroll = function() {
     var top = window.scrollY;
-    if(top >=0) {
+    if(top >=100) {
         header.classList.add('navbarDark');
     }
     else {
