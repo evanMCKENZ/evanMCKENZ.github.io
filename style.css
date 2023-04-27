@@ -27,7 +27,7 @@
 }
 
 /* spacing on all sections */
-/* #about, #services, #portfolio, #contact {
+/* #about, #resume, #portfolio, #contact {
     margin-top: 4rem;
     padding-top: 4rem;
 } */
@@ -39,7 +39,7 @@
     width: 100%;
 }
 
-/* services section css */
+/* resume section css */
 .servicesText.card {
     height: 280px;
     cursor: pointer;
