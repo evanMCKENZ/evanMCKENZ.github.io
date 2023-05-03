@@ -1,6 +1,11 @@
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
     background-color: black;
+    color: gold;
+}
+
+.nav.navbar-nav li a{
+    color: black;
 }
 
 /* hero background image */
@@ -87,7 +92,7 @@
 
 /* Hide the images by default */
 .mySlides {
-  display: table-column;
+  display: block;
 }
 
 /* Next & previous buttons */
