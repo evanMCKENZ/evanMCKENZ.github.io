@@ -87,7 +87,7 @@
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+  display: table-column;
 }
 
 /* Next & previous buttons */
