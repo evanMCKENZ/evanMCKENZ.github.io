@@ -165,16 +165,22 @@ img {vertical-align: middle;}
   background-color: #717171;
 }
 
+.fade-in-slide { animation: fadeIn 1.5s; }
+
 /* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
 }
 
+@keyframes fadeIn {
+  0% {opacity: .4;}
+  100% {opacity: 1;}
+}
+
 @keyframes fade {
   from {opacity: .4; visibility: visible;}
   to {opacity: 1; visibility: visible;}
-  
 }
 
 /* On smaller screens, decrease text size */
