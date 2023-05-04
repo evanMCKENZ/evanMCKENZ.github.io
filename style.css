@@ -96,6 +96,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
+  background: white;
   max-width: 1000px;
   position: relative;
   margin: auto;
@@ -130,20 +131,20 @@ img {vertical-align: middle;}
 
 /* Caption text */
 .text {
-  color: #000000;
-  font-size: 15px;
-  padding: 8px 12px;
+  color: #FFFFFF;
+  font-size: 18px;
+  padding: 8px 18px;
   position: absolute;
-  bottom: 8px;
+  bottom: 10px;
   width: 100%;
   text-align: center;
 }
 
 /* Number text (1/5 etc) */
 .numbertext {
-  color: #000000;
-  font-size: 12px;
-  padding: 8px 12px;
+  color: #FFFFFF;
+  font-size: 18px;
+  padding: 8px 18px;
   position: absolute;
   top: 0;
 }
@@ -167,13 +168,13 @@ img {vertical-align: middle;}
 /* Fading animation */
 .fade {
   animation-name: fade;
-  animation-duration: 1.5s forward;
-  animation-play-state: paused;
+  animation-duration: 1.5s;
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {opacity: .4; visibility: visible;}
+  to {opacity: 1; visibility: visible;}
+  
 }
 
 /* On smaller screens, decrease text size */
