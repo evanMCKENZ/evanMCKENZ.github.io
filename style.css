@@ -8,6 +8,10 @@
     color: black;
 }
 
+body { 
+    padding-top: 65px; 
+}
+
 /* hero background image */
 .bgimage {
     height:100vh;
