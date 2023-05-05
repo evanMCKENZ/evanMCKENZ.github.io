@@ -36,9 +36,19 @@
     margin-top: 4rem;
     padding-top: 4rem;
 } */
-#contact {
-    padding-bottom: 4rem;
+#about {
+    padding-top: 65px; 
 }
+#resume {
+    padding-top: 65px; 
+}
+#portfolio {
+    padding-top: 65px; 
+}
+#contact {
+    padding-top: 65px; 
+}
+
 /* about section image css */
 .imageAboutPage {
     width: 100%;
@@ -103,7 +113,7 @@ ul {
 }
 
 * {box-sizing: border-box}
-body {padding-top: 65px; font-family: Verdana, sans-serif; margin:0}
+body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;}
 
