@@ -12,10 +12,9 @@ window.onscroll = function() {
 // collapse navbar after click on small devices
 const navLinks = document.querySelectorAll('.nav-item')
 const menuToggle = document.getElementById('navbarSupportedContent')
-const bsCollapse = new bootstrap.Collapse(menuToggle)
 
 navLinks.forEach((l) => {
-    l.addEventListener('click', () => { bsCollapse.toggle() })
+    l.addEventListener('click', () => { new bootstrap.Collapse(menuToggle).toggle() })
 })
 
 let slideIndex = 1;
