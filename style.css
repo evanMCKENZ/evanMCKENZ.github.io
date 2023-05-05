@@ -103,7 +103,7 @@ ul {
 }
 
 * {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
+body {padding-top: 65px; font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;}
 
