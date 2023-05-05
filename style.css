@@ -44,6 +44,11 @@
     width: 100%;
 }
 
+ul {
+  padding-left: 0;
+  list-style-position: inside;
+}
+
 /* resume section css */
 .servicesText.card {
     height: 280px;
