@@ -31,11 +31,6 @@
     color: white;
 }
 
-body { padding-top: 70px; }
-@media screen and (max-width: 768px) {
-    body { padding-top: 0px; }
-}
-
 /* spacing on all sections */
 /* #about, #resume, #portfolio, #contact {
     margin-top: 4rem;
@@ -197,4 +192,8 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+body {
+  scroll-padding-top: 70px; /* height of sticky header */
 }
