@@ -72,6 +72,9 @@ ul {
 .card-title {
     text-align: center;
 }
+.card-text {
+    text-align: center;
+}
 .card:hover .servicesIcon {
     color: #008000;
 }
