@@ -1,11 +1,7 @@
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-    bg-color: black !important;
+    background-color: black !important;
     color: gold !important;
-}
-
-.nav.navbar-nav li a{
-    color: black !important;
 }
 
 /* hero background image */
